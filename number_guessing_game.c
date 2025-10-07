@@ -30,7 +30,7 @@ int main(){
         no_of_guess++;
     }
     if(randomNumber==your_input)
-    printf("you guess a right number!,You win by %d guesses.\n",no_of_guess);
+    printf("you guess a right number!,The number is: %d\nYou win by %d guesses.\n",randomNumber,no_of_guess);
 
     //Print the random number
     // printf("random Number:%d\n",randomNumber);
